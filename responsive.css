@@ -3,6 +3,40 @@
     .contact-card {
         width: 50%;
     }
+
+    .cda-section {
+        grid-template-columns: 100%;
+    }
+
+    .content-cda {
+        text-align: center;
+        padding-bottom: 10px;
+        margin-top: 5%;
+    }
+
+    .images-features-section {
+        grid-template-columns: 45%;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .images-features-section img {
+        width: 100%
+    }
+
+    .contact-form {
+        grid-template-columns: 50%;
+    }
+
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    .gallery-view {
+        grid-template-columns: 30% 30% 30%;
+        row-gap: 10px;
+    }
 }
 
 @media screen and (max-width: 767px) {}
